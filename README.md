@@ -1,17 +1,36 @@
-# AI Resume Analyzer Screening 🤖
+# AI Resume Analyzer Screening
 
-AI Resume Analyzer is an intelligent web-based application designed to analyze resumes using Machine Learning and Generative AI techniques. The system helps job seekers understand the strengths and weaknesses of their resumes by automatically extracting information from uploaded PDF resumes and providing useful insights.
+AI Resume Analyzer is a machine learning and generative AI based web application that analyzes resumes and provides useful insights to job seekers. The system allows users to upload their resume in PDF format and automatically extracts important information such as skills, predicted job role, ATS score, and confidence level.
 
-The main goal of this project is to assist candidates in improving their resumes and increasing their chances of passing Applicant Tracking Systems (ATS) used by many companies during the hiring process. The system analyzes resume content and provides feedback related to job roles, technical skills, and resume quality.
+The main goal of this project is to help candidates understand how well their resume matches industry expectations and improve their chances of getting shortlisted in recruitment systems.
 
-The application uses Natural Language Processing (NLP) and Machine Learning algorithms to process resume text and identify important information. Once a resume is uploaded, the system extracts the text from the PDF file and analyzes it using a trained machine learning model to predict the most suitable job role for the candidate. The system also detects technical skills present in the resume by comparing the resume text with a predefined skills database.
+The application uses Natural Language Processing (NLP) and machine learning techniques to analyze resume content. It detects important keywords and predicts the most suitable job role based on the information present in the resume. It also calculates an ATS score which represents how well the resume is optimized for Applicant Tracking Systems used by many companies during the hiring process.
 
-One of the important features of this project is the ATS score evaluation system. The application calculates an ATS score based on different factors such as the number of detected skills, resume length, model prediction confidence, and similarity with a job description if provided. This score helps users understand how well their resume matches industry requirements.
+In addition to resume analysis, the system includes several AI powered features such as interview question generation and resume bullet point rewriting. The interview question generator produces technical questions based on the detected skills in the resume, helping candidates prepare for job interviews. The resume rewriter improves weak resume bullet points and converts them into stronger and more professional statements.
 
-The system also integrates Generative AI capabilities to enhance the user experience. It generates a concise AI-based summary of the resume and provides technical interview questions based on the detected skills. These questions help candidates prepare for technical interviews related to their skill sets.
+The application is built using Python and Streamlit for the user interface. Machine learning models are used for resume classification and keyword analysis. The system also uses libraries such as Scikit-learn, NLTK, and PDF processing tools to extract and process resume text.
 
-Another useful feature is the AI Resume Rewriter. This tool allows users to enter weak resume bullet points and automatically converts them into stronger, professional, and ATS-friendly statements.
+This project demonstrates how Artificial Intelligence and Machine Learning can be applied to simplify the recruitment process and provide intelligent feedback to job seekers.
 
-The user interface of the system is built using Streamlit, which provides an interactive and easy-to-use web application. Users can upload their resume, analyze it, view insights such as predicted job role, detected skills, ATS score, and interview questions, and download a detailed resume analysis report in PDF format.
+## Features
 
-Overall, the AI Resume Analyzer combines Machine Learning, Natural Language Processing, and Generative AI techniques to create a smart tool that helps candidates improve their resumes and prepare better for job opportunities.
+- Resume Upload and Analysis
+- Resume Text Extraction from PDF
+- Skill Detection from Resume
+- Job Role Prediction using Machine Learning
+- ATS Score Calculation
+- AI Resume Summary
+- AI Interview Question Generator
+- AI Resume Bullet Point Rewriter
+- Downloadable Resume Analysis Report
+
+## Technologies Used
+
+- Python
+- Machine Learning (Scikit-learn)
+- Natural Language Processing (NLTK)
+- Streamlit
+- PDFPlumber
+- Generative AI
+
+## Project Structure
